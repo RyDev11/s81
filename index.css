@@ -1,0 +1,139 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background-color: #f4f8ff;
+    color: #333;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.navbar {
+    background-color: #004080;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.bg-light {
+    background-color: #e6f2ff !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1, h2, h5 {
+    font-weight: bold;
+    color: #002b5c;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+#categories div, #resources p {
+    margin-top: 15px;
+}
+
+#featured, #categories-section, #about {
+    background-color: #d9e6ff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
+    background-color: #b3ccff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+#home {
+    background-image: url(./images/homepage-bg.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; /* Ensure the background covers the whole section */
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+/* Hero Button Styling */
+#home .btn-primary {
+    background-color: #00C8FF; /* Bright cyan for a futuristic feel */
+    border-color: #0096CC;
+    color: #000; /* Black text for readability */
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect */
+#home .btn-primary:hover {
+    background-color: #007BFF; /* Darker blue on hover */
+    border-color: #0056b3;
+    transform: scale(1.05); /* Slight increase in size */
+}
+
+/* Card Hover Animation - Smooth Scaling & Shadow */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Scale up and add shadow on hover */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Hero Section Text Styling */
+#home h1 {
+    color: #FFFFFF; /* White for strong contrast */
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Soft shadow for readability */
+}
+
+#home p {
+    color: #E0F7FA; /* Light cyan for readability */
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    background-color: #004080; /* Matches navbar */
+    color: white;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #b3ccff; /* Light blue hover effect */
+}
