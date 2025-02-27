@@ -122,6 +122,16 @@ h1, h2, h5 {
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
 }
 
+.btn.btn-primary.btn-sm {
+    background-color: #004080;
+}
+
+.btn.btn-primary.btn-sm:hover {
+    background-color: lightblue;
+    color: #004080;
+}
+
+
 .footer {
     background-color: #004080; /* Matches navbar */
     color: white;
@@ -137,3 +147,5 @@ h1, h2, h5 {
 .footer a:hover {
     color: #b3ccff; /* Light blue hover effect */
 }
+
+
